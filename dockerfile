@@ -1,14 +1,10 @@
 FROM python:3.10.6-alpine3.16
-
 RUN mkdir -p /app
-
 WORKDIR /app
 
-COPY ./src/requirements.txt /app/requirements.txt
-
+COPY ./src/ /app/
 RUN pip install -r requirements.txt
 
-COPY ./src/ /app/
 ENV FLASK_APP=app.py
 
 EXPOSE 5000
