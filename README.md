@@ -1,8 +1,4 @@
 # My-MiniStack
 
-Currently Implemented:
-
-Future: Argo CD, NGINX
-Chaos Test
-
-Read: https://prometheus.io/docs/prometheus/latest/storage/, terraform,
+Currently Implemented:      Python App, Load Balancing Service, Grafana - Prometheus Monitoring
+Future:                     Argo CD, NGINX, Chaos Testing
